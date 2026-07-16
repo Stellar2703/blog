@@ -7,7 +7,7 @@ order: 4
 <h1 align="center">Hi 👋, I'm Shahswath V R</h1>
 <h3 align="center">Passionate about Web Development, Virtualization, and Cloud Computing</h3>
 
-- 🔭 I’m currently working on **Open HPC clustering**
+- 🔭 I’m currently working on **HPC clustering**
 
 - 🌱 I’m currently learning **React**
 
