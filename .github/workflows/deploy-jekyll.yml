@@ -1,4 +1,4 @@
-name: Deploy Jekyll Blog to stellar2703.github.io/pages
+name: Deploy Jekyll Blog to stellar2703.github.io/blog
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           bundler-cache: true
           
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "/pages"
+        run: bundle exec jekyll build --baseurl "/blog"
         env:
           JEKYLL_ENV: production
           
@@ -32,7 +32,7 @@ jobs:
           external_repository: Stellar2703/stellar2703.github.io
           publish_branch: main
           publish_dir: ./_site
-          destination_dir: pages
+          destination_dir: blog
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Deploy Jekyll blog to pages subdirectory'
+          commit_message: 'Deploy Jekyll blog to blog subdirectory'
