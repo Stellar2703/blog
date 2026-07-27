@@ -32,4 +32,4 @@ order: 4
   <li><b>Networking & Security:</b> Network Configuration, VPN, Security Best Practices</li>
 </ul>
 
-<p><b>Download my full resume:</b> <a href="/Shashwath.V.R.pdf" target="_blank">Shashwath.V.R.pdf</a></p>
+<p><b>Download my full resume:</b> <a href="{{ '/Shashwath.V.R.pdf' | relative_url }}" target="_blank">Shashwath.V.R.pdf</a></p>
